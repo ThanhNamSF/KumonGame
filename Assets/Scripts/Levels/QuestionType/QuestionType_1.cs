@@ -32,6 +32,31 @@ public class QuestionType_1 : QuestionAbstract {
         }
     }
 
+    public void SubmitRank(List<Answer> answerSelecteds, GameObject[] starAwards, GameObject[] wrongAnswers)
+    {
+        for (int res = 0; res < results.Length; res++)
+        {
+            int count = 1;
+            for (int i = 0; i < answerSelecteds.Count; i++)
+            {
+                if (string.Compare(answerSelecteds[res].Result, answerSelecteds[i].Result) < 0)
+                {
+                    count++;
+                }
+            }
+            if (!string.IsNullOrEmpty(results[res].text) && Int32.Parse(results[res].text) == count)
+            {
+                starAwards[res].SetActive(true);
+                starAwards[res].transform.position = resultPositions[res].position;
+            }
+            else
+            {
+                wrongAnswers[res].SetActive(true);
+                wrongAnswers[res].transform.position = resultPositions[res].position;
+            }
+        }
+    }
+
     public void SetEmptyInputField()
     {
         for (int i = 0; i < 4; i++)

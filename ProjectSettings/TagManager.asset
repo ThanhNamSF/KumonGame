@@ -17,6 +17,8 @@ TagManager:
   - FlagMid
   - FlagLeft
   - FlagRight
+  - Level5
+  - Comming Soon
   layers:
   - Default
   - TransparentFX

@@ -53,18 +53,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Levels\Answer_Question\Answer.cs" />
      <Compile Include="Assets\Scripts\Levels\Answer_Question\Question.cs" />
-     <Compile Include="Assets\Scripts\Levels\ChallengeLv1\BalloonMovement.cs" />
-     <Compile Include="Assets\Scripts\Levels\ChallengeLv1\BulletController.cs" />
-     <Compile Include="Assets\Scripts\Levels\ChallengeLv1\CannonController.cs" />
-     <Compile Include="Assets\Scripts\Levels\ChallengeLv1\ChallengeControllerLv1.cs" />
-     <Compile Include="Assets\Scripts\Levels\ChallengeLv1\TopWallCollision.cs" />
      <Compile Include="Assets\Scripts\Levels\ClickOnImage.cs" />
-     <Compile Include="Assets\Scripts\Levels\CountNumber.cs" />
      <Compile Include="Assets\Scripts\Levels\DisableObjectOverTime.cs" />
      <Compile Include="Assets\Scripts\Levels\Level1\GameControllerLv1.cs" />
      <Compile Include="Assets\Scripts\Levels\Level2\GameControllerLv2.cs" />
      <Compile Include="Assets\Scripts\Levels\Level3\GameControllerLv3.cs" />
      <Compile Include="Assets\Scripts\Levels\Level4\GameControllerLv4.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level5\GameControllerLv5.cs" />
      <Compile Include="Assets\Scripts\Levels\ObjectPooler.cs" />
      <Compile Include="Assets\Scripts\Levels\QuestionType\QuestionAbstract.cs" />
      <Compile Include="Assets\Scripts\Levels\QuestionType\QuestionType_1.cs" />

@@ -1987,7 +1987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000009536743}
+  m_AnchoredPosition: {x: 0, y: -48}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &245696628
@@ -2098,7 +2098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -45}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &297348961
@@ -3829,7 +3829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: -0.00013971329}
+  m_AnchoredPosition: {x: -26, y: -22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &553285853
@@ -4314,8 +4314,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Congratulations! Your process has been 100%. Do you want to go to next
-    level or continue training ?? '
+  m_Text: Congratulations! Your process has been 100%. You got a reward.
 --- !u!222 &623303847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5773,7 +5772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -62}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &861522904
@@ -7633,7 +7632,7 @@ Prefab:
     - target: {fileID: 198945977131392610, guid: 19b174aabc66f97459c2357a772cc698,
         type: 2}
       propertyPath: randomSeed
-      value: 319538143
+      value: 250099505
       objectReference: {fileID: 0}
     - target: {fileID: 198945977131392610, guid: 19b174aabc66f97459c2357a772cc698,
         type: 2}
@@ -7643,7 +7642,7 @@ Prefab:
     - target: {fileID: 198454480376761558, guid: 19b174aabc66f97459c2357a772cc698,
         type: 2}
       propertyPath: InitialModule.startSize.scalar
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198454480376761558, guid: 19b174aabc66f97459c2357a772cc698,
         type: 2}
@@ -7737,6 +7736,16 @@ Prefab:
     - target: {fileID: 114049112339976464, guid: 19b174aabc66f97459c2357a772cc698,
         type: 2}
       propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 198454480376761558, guid: 19b174aabc66f97459c2357a772cc698,
+        type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 198454480376761558, guid: 19b174aabc66f97459c2357a772cc698,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
       value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13024,8 +13033,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.5, y: 47.6}
-  m_SizeDelta: {x: 799.1, y: 125.1}
+  m_AnchoredPosition: {x: 262.5, y: 61.5}
+  m_SizeDelta: {x: 799.1, y: 97.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979248418
 MonoBehaviour:
@@ -13050,7 +13059,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 0
@@ -13456,7 +13465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -35}
+  m_AnchoredPosition: {x: 0, y: -52}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2072341363

@@ -122,4 +122,9 @@ public class GameControllerLv4 : MonoBehaviour {
     {
         NavigationController.instance.LoadMenu();
     }
+
+    public void NextLevel()
+    {
+        NavigationController.instance.LoadLevel(5);
+    }
 }

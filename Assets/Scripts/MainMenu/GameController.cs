@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour {
 
     public static GameController instance;
     public GameObject[] Levels;
+    public int MaxLevel;
 
     private Slider processingSlider;
     private GameObject finishLevel;
@@ -31,7 +32,7 @@ public class GameController : MonoBehaviour {
         {
             Destroy(this.gameObject);
         }
-        //PlayerPrefs.SetInt("Level", 1);
+        //PlayerPrefs.SetInt("Level", 5);
         //PlayerPrefs.SetFloat("Exp", 0);
         UnlockLevel();
     }
@@ -57,6 +58,8 @@ public class GameController : MonoBehaviour {
     public void UnlockLevel()
     {  
         currentLevel = PlayerPrefs.GetInt("Level");
+        if (currentLevel > MaxLevel)
+            currentLevel = MaxLevel;
         if (currentLevel == 0)
         {
             currentLevel = 1;
@@ -104,6 +107,7 @@ public class GameController : MonoBehaviour {
                 DisableWrongAnswer();
                 finishLevel.SetActive(true);
                 reward.SetActive(true);
+                SoundManager.instance.PlayRewardMusic();
                 if(levelSelected == currentLevel)
                 {
                     currentLevel++;

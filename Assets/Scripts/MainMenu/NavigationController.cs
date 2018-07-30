@@ -32,8 +32,14 @@ public class NavigationController : MonoBehaviour {
 	}
     public void LoadLevel(int level)
     {
+        SoundManager.instance.PlayBackgroundMusic();
         if(GameController.instance.GetCurrentLevel() >= level)
             Application.LoadLevel(Levels[level - 1]);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     public void LoadChallenge1()
@@ -43,6 +49,7 @@ public class NavigationController : MonoBehaviour {
 
     public void LoadMenu()
     {
+        SoundManager.instance.PlayBackgroundMusic();
         Application.LoadLevel(Menu);
     }
 }

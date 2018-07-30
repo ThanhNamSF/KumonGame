@@ -34,6 +34,16 @@ public class MenuController : MonoBehaviour {
         NavigationController.instance.LoadLevel(4);
     }
 
+    public void LoadLevel5()
+    {
+        NavigationController.instance.LoadLevel(5);
+    }
+
+    public void QuitGame()
+    {
+        NavigationController.instance.QuitGame();
+    }
+
     public void LoadChallenge1()
     {
         NavigationController.instance.LoadChallenge1();
