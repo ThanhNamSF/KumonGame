@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/fstha/Desktop/Kumon.apk
+C:/Users/fstha/Desktop/KumonGame.apk
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Level_1.unity
@@ -127,23 +127,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 09832190623c0316681ffbc4f5745f1c Assembly-CSharp.dll:.QuestionType_3
 9964559958b8f178ecbc0da9b939aaf7 Assembly-CSharp.dll:.ObjectPooler
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Mobile.Android.AndroidFacebookGameObject
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Mobile.Android.AndroidFacebookLoader
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.AsyncRequestString
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Canvas.CanvasFacebookGameObject
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Canvas.CanvasFacebookLoader
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Editor.EditorFacebookGameObject
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Editor.EditorFacebookLoader
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.EmptyMockDialog
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.FacebookScheduler
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.FB
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Gameroom.GameroomFacebookGameObject
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Gameroom.GameroomFacebookLoader
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Mobile.IOS.IOSFacebookGameObject
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Mobile.IOS.IOSFacebookLoader
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Canvas.JsBridge
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.MockLoginDialog
-05524b8f659e7bfe5756d1335fec24ba Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.MockShareDialog
 7d8fe8526e4d73f970eeb8b76423c27f Assembly-CSharp.dll:.QuestionType_5
 0ea70f437b58d92cf4f15c8746110639 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIParticleSystem
 eafda9c4b0eaa894a384ff446a1409d9 Assembly-CSharp.dll:.NavigationController
@@ -180,7 +163,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 ba7a3c0e65c95354b68d35c04297644f Assembly-CSharp.dll:.GameControllerLv1
 44ed2826f4967888024baf2ffe9d7d36 Assembly-CSharp.dll:.GameControllerLv2
-751c80050bef53339b1227d1a0e0a30d Assembly-CSharp.dll:.SoundManager
+86bc618beb321e096cce288eeeadc022 Assembly-CSharp.dll:.SoundManager
 1eba358720241f2c39068d0b6cfc454e Assembly-CSharp.dll:.GameControllerLv3
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -192,5 +175,4 @@ b525cfb80c3b3ac3977a5779ea402883 Assembly-CSharp.dll:.ClickOnImage
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DisableObjectOverTime
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.RotateOject
-32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 2c18ff9d6e2866b3637321b209153dcf Assembly-CSharp.dll:.GameControllerLv4

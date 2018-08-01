@@ -7,9 +7,7 @@ public class SoundManager : MonoBehaviour {
     public AudioSource collectStar;
     public AudioSource backgroundMusic;
     public AudioSource rewardMusic;
-    public AudioClip[] backgroundMusicArr;
     public static SoundManager instance;
-    private bool playBackgroundMusic = true;
     int index = 1;
 
     void Awake()
@@ -29,16 +27,13 @@ public class SoundManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        PlayBackgroundMusic();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!backgroundMusic.isPlaying && playBackgroundMusic)
-        {
-            backgroundMusic.clip = backgroundMusicArr[(index++) % backgroundMusicArr.Length];
-            backgroundMusic.Play();
-        }
+
     }
 
     public void PLayCollectStar()
@@ -50,7 +45,6 @@ public class SoundManager : MonoBehaviour {
 
     public void PlayRewardMusic()
     {
-        playBackgroundMusic = false;
         if(backgroundMusic.isPlaying)
             backgroundMusic.Stop();
         rewardMusic.Play();
@@ -58,8 +52,8 @@ public class SoundManager : MonoBehaviour {
 
     public void PlayBackgroundMusic()
     {
-        playBackgroundMusic = true;
         if(rewardMusic.isPlaying)
             rewardMusic.Stop();
+        backgroundMusic.Play();
     }
 }
